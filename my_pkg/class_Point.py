@@ -37,7 +37,9 @@ def get_point():
 
 def main():
     po1 = get_point()
-    po1.move(3, 6)
-    print(po1.x, po1.y)
+
+
+
 if __name__ == "__main__":
     main()
+

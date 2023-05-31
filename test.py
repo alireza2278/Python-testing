@@ -1,2 +1,2 @@
-import class_Point
-
+print("ali")
+print(repr("ali"))
