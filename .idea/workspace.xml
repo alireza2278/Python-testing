@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf4db639-9cb9-4963-9b93-2a97ffa71ca4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my_class/class_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learnit python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnit python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_class/class_bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_class/class_bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_class/class_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_class/class_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sorena\Desktop\python project\my_pkg" />
@@ -226,6 +230,8 @@
       <workItem from="1685564073427" duration="1521000" />
       <workItem from="1685600035905" duration="7026000" />
       <workItem from="1685619241325" duration="624000" />
+      <workItem from="1685704488697" duration="3289000" />
+      <workItem from="1685708125793" duration="749000" />
     </task>
     <servers />
   </component>
@@ -244,18 +250,19 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_project$class1.coverage" NAME="class1 Coverage Results" MODIFIED="1685445943671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
-    <SUITE FILE_PATH="coverage/python_project$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684959255028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learnit_python$tic_tac_toe.coverage" NAME="tic-tac-toe Coverage Results" MODIFIED="1681408072906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnit_python$class_Point.coverage" NAME="class Point Coverage Results" MODIFIED="1684769351322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_project$class_str_repr.coverage" NAME="class_str_repr Coverage Results" MODIFIED="1685539289406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
+    <SUITE FILE_PATH="coverage/python_project$class_bank.coverage" NAME="class_bank Coverage Results" MODIFIED="1685611519918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
+    <SUITE FILE_PATH="coverage/python_project$class_user.coverage" NAME="class_user Coverage Results" MODIFIED="1685708831148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
+    <SUITE FILE_PATH="coverage/python_project$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684959255028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnit_python$class_bank__1_.coverage" NAME="class_bank (1) Coverage Results" MODIFIED="1685690785326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
+    <SUITE FILE_PATH="coverage/python_project$test.coverage" NAME="test Coverage Results" MODIFIED="1685611774479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnit_python$class_bank.coverage" NAME="class_bank Coverage Results" MODIFIED="1685604428743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
     <SUITE FILE_PATH="coverage/learnit_python$class_user.coverage" NAME="class_user Coverage Results" MODIFIED="1685692708388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/python_project$class_bank__1_.coverage" NAME="class_bank (1) Coverage Results" MODIFIED="1685613554191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
-    <SUITE FILE_PATH="coverage/python_project$class_bank.coverage" NAME="class_bank Coverage Results" MODIFIED="1685565443168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
-    <SUITE FILE_PATH="coverage/python_project$test.coverage" NAME="test Coverage Results" MODIFIED="1685440621596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learnit_python$class_bank.coverage" NAME="class_bank Coverage Results" MODIFIED="1685604428743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
-    <SUITE FILE_PATH="coverage/learnit_python$class_bank__1_.coverage" NAME="class_bank (1) Coverage Results" MODIFIED="1685690785326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
-    <SUITE FILE_PATH="coverage/learnit_python$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684911844704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project$class1.coverage" NAME="class1 Coverage Results" MODIFIED="1685445943671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
+    <SUITE FILE_PATH="coverage/learnit_python$tic_tac_toe.coverage" NAME="tic-tac-toe Coverage Results" MODIFIED="1681408072906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project$class_str_repr.coverage" NAME="class_str_repr Coverage Results" MODIFIED="1685539289406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
     <SUITE FILE_PATH="coverage/learnit_python$test.coverage" NAME="test Coverage Results" MODIFIED="1684911841075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnit_python$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684911844704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
