@@ -1,6 +1,16 @@
 from pprint import pprint
+
+
+class UserList(list):
+    def search(self, user_name):
+        matching_user = []
+        for user in self:
+            if user_name in user.user_name:
+                matching_user.append(user)
+            return matching_user
+
 class User:
-    All_users: list["User"] = []
+    All_users: list["User"] = UserList()
 
     def __init__(self, user_name: str, email: str, password: str) -> None:
         self.user_name = user_name
@@ -22,15 +32,10 @@ class Seller(User):
 
 
 def main() -> None:
-    ali = User("ali","gmail","8585")
-    reza = Seller("reza","email","9595")
-    sasan = User("sasan","gmail2","7575")
-    ahmad = Seller("ahmad","email2","1000")
-    print("user:",ali.user_name,ali.email)
-    print("saler:",reza.user_name, reza.email)
-    reza.order("book")
-
-
-
+    u1 = User("ali", "e", "1")
+    u2 = User("reza", "g", "2")
+    u3 = User("ali01", "e1", "3")
+    u4 = User("sasan66", "e1", "3")
+    pprint(User.All_users.search("ali"))
 if __name__ == "__main__":
     main()
