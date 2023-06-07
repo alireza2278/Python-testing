@@ -9,6 +9,12 @@ class UserList(list):
                 matching_user.append(user)
             return matching_user
 
+    def append(self, obj) -> None:
+
+        if not isinstance(obj, User):
+            raise TypeError("this is only accepts User")
+        return super().append(obj)
+
 class User:
     All_users: list["User"] = UserList()
 
@@ -31,11 +37,20 @@ class Seller(User):
         print(f"from your products{order} was sold!")
 
 
+class Bayer(User):
+    def __init__(self, user_name: str, email: str, password: str,phone) -> None:
+        super().__init__(user_name,email,password)
+        self.phone = phone
+
+    def __repr__(self) -> str:
+        return f"{self.__class__.__name__}({self.user_name!r}, {self.email!r}, " \
+               f"{self.password!r}, {self.phone!r})"
+
+
 def main() -> None:
-    u1 = User("ali", "e", "1")
-    u2 = User("reza", "g", "2")
-    u3 = User("ali01", "e1", "3")
-    u4 = User("sasan66", "e1", "3")
-    pprint(User.All_users.search("ali"))
+    u1 = Bayer("alireza","email","pass","0918")
+    li = UserList()
+    li.append(4)
+    print(li)
 if __name__ == "__main__":
     main()
