@@ -1,23 +1,43 @@
-class SuperClass1:
-    def __init__(self, p1):
-        self.p1 = p1
+from pprint import pprint
 
 
-class SuperClass2:
+class BaceClass:
+    num_base_calls = 0
 
-    def __init__(self, p2):
-        self.p2 = p2
-
-
-class SubClass(SuperClass2, SuperClass1):
-    
-    def __init__(self, p1, p2, p3):
-        SuperClass1.__init__(self, p1)
-        SuperClass2.__init__(self, p2)
-        self.p3 = p3
+    def call_me(self):
+        print("calling method on BaceClass")
+        self.num_base_calls += 1
 
 
-obj = SubClass(1, 2, 3)
-print(obj.p1)
-print(obj.p2)
-print(obj.p3)
+class LeftSubClass(BaceClass):
+    num_left_calls = 0
+
+    def call_me(self):
+        super().call_me()
+        print("calling method on LeftSubClass")
+        self.num_left_calls += 1
+
+
+class RightSubClass(BaceClass):
+    num_right_calls = 0
+
+    def call_me(self):
+        super().call_me()
+        print("calling method on RightSubClass")
+        self.num_right_calls += 1
+
+
+class SubClass(LeftSubClass, RightSubClass):
+    num_sub_calls = 0
+
+    def call_me(self):
+        super().call_me()
+        print("calling method on SubClass")
+        self.num_sub_calls += 1
+
+
+s = SubClass()
+s.call_me()
+print(s.num_sub_calls, s.num_left_calls, s.num_right_calls, s.num_base_calls)
+print()
+pprint(SubClass.__mro__)
