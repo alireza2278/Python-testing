@@ -1,6 +1,23 @@
-def add(x,y):
-    print(x+y)
+class WiFiMixin:
+    def connect_to_wifi(self):
+        print("Connection successful")
 
 
+class Vehicle:
+    def move(self):
+        pass
 
-add("a","q")
+
+class Car(Vehicle, WiFiMixin):
+    pass
+
+
+class AirPlane(Vehicle):
+    pass
+
+
+class MotorCycle(Vehicle):
+    pass
+
+car = Car()
+car.connect_to_wifi()

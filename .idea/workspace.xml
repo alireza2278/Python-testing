@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf4db639-9cb9-4963-9b93-2a97ffa71ca4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my_class/Example of diamond problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_class/class_Animal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_class/class_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_class/class_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_bank (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_Animal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnit python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +103,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_class/class_bank.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_class/class_Animal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.class_Animal" />
         <item itemvalue="Python.class_user" />
         <item itemvalue="Python.Example of diamond problem (۱)" />
         <item itemvalue="Python.Example of diamond problem" />
-        <item itemvalue="Python.class_bank (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +222,8 @@
       <workItem from="1686291436014" duration="6009000" />
       <workItem from="1686317207177" duration="5954000" />
       <workItem from="1686405241548" duration="4616000" />
+      <workItem from="1686468890051" duration="1758000" />
+      <workItem from="1686549414689" duration="6012000" />
     </task>
     <servers />
   </component>
@@ -244,6 +245,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learnit_python$class_Animal.coverage" NAME="class_Animal Coverage Results" MODIFIED="1686555554876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/python_project$class1.coverage" NAME="class1 Coverage Results" MODIFIED="1685445943671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
     <SUITE FILE_PATH="coverage/python_project$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684959255028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnit_python$tic_tac_toe.coverage" NAME="tic-tac-toe Coverage Results" MODIFIED="1681408072906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -258,6 +260,6 @@
     <SUITE FILE_PATH="coverage/learnit_python$class_bank__1_.coverage" NAME="class_bank (1) Coverage Results" MODIFIED="1685690785326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/learnit_python$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684911844704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnit_python$Example_of_diamond_problem___.coverage" NAME="Example of diamond problem (۱) Coverage Results" MODIFIED="1686406641456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
-    <SUITE FILE_PATH="coverage/learnit_python$test.coverage" NAME="test Coverage Results" MODIFIED="1686409732436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnit_python$test.coverage" NAME="test Coverage Results" MODIFIED="1686555562505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
