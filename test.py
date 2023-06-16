@@ -1,21 +1,40 @@
 class Shape:
     def __init__(self, **kwargs):
-        self.area = None
-        self.environment = None
         for key, value in kwargs.items():
             setattr(self, key, value)
-    def Calculate_area(self):
+        self.area = 0
+        self.environment = 0
+
+    def calculate_area(self):
         pass
 
-    def Calculate_environment(self):
+    def calculate_environment(self):
         pass
+
     def show(self):
         info = ""
         for key, value in self.__dict__.items():
-            if value>0:
+            if value > 0:
                 info += f"{key}:{value:.2f}\n"
-            print(info)
+        print(info)
     def __str__(self):
         return self.__class__.__name__
 
-class
+class Rectangle(Shape):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+    def calculate_area(self):
+        self.area = self.length * self.width
+
+    def calculate_environment(self):
+        self.environment = 2 * (self.length + self.width)
+
+
+r = Rectangle(length=6, width=5)
+print(r)
+r.calculate_environment()
+r.calculate_area()
+r.show()
+
+
