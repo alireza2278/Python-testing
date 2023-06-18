@@ -105,7 +105,6 @@ class Circle(Shape):
     def calculate_environment(self):
         self.environment = 2 * self.radius * 3.14
 
-
 r = Rectangle(length=2, width=6)
 r.calculate_area()
 r.calculate_environment()
