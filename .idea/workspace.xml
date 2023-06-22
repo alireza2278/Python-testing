@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf4db639-9cb9-4963-9b93-2a97ffa71ca4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_class/color.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_class/comment.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_class/comment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sorena\Desktop\python project\my_pkg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.comment">
+  <component name="RunManager" selected="Python.color">
     <configuration name="Calculation of perimeter and area" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnit python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnit python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +101,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_class/class_user.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_class/color.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.color" />
         <item itemvalue="Python.comment" />
         <item itemvalue="Python.Calculation of perimeter and area" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.class_Animal" />
-        <item itemvalue="Python.class_user" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +237,8 @@
       <workItem from="1687285253957" duration="1208000" />
       <workItem from="1687286525488" duration="1107000" />
       <workItem from="1687290040158" duration="1000" />
+      <workItem from="1687440310093" duration="2551000" />
+      <workItem from="1687448962210" duration="1253000" />
     </task>
     <servers />
   </component>
@@ -263,6 +267,7 @@
     <SUITE FILE_PATH="coverage/learnit_python$tic_tac_toe.coverage" NAME="tic-tac-toe Coverage Results" MODIFIED="1681408072906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnit_python$class_Point.coverage" NAME="class Point Coverage Results" MODIFIED="1684769351322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project$class_str_repr.coverage" NAME="class_str_repr Coverage Results" MODIFIED="1685539289406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
+    <SUITE FILE_PATH="coverage/learnit_python$color.coverage" NAME="color Coverage Results" MODIFIED="1687450125544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/learnit_python$class_user.coverage" NAME="class_user Coverage Results" MODIFIED="1686408381111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/python_project$class_bank__1_.coverage" NAME="class_bank (1) Coverage Results" MODIFIED="1685613554191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/python_project$class_user.coverage" NAME="class_user Coverage Results" MODIFIED="1685708831148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
@@ -272,7 +277,7 @@
     <SUITE FILE_PATH="coverage/learnit_python$class_bank.coverage" NAME="class_bank Coverage Results" MODIFIED="1685604428743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
     <SUITE FILE_PATH="coverage/learnit_python$Calculation_of_perimeter_and_area.coverage" NAME="Calculation of perimeter and area Coverage Results" MODIFIED="1687242149264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/learnit_python$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684911844704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learnit_python$comment.coverage" NAME="comment Coverage Results" MODIFIED="1687411831170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
+    <SUITE FILE_PATH="coverage/learnit_python$comment.coverage" NAME="comment Coverage Results" MODIFIED="1687440863229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/learnit_python$Example_of_diamond_problem___.coverage" NAME="Example of diamond problem (۱) Coverage Results" MODIFIED="1686406641456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/learnit_python$test.coverage" NAME="test Coverage Results" MODIFIED="1686638117134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project$comment.coverage" NAME="comment Coverage Results" MODIFIED="1687286926891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
