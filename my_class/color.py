@@ -1,33 +1,36 @@
 class Color:
     def __init__(self, rgb, name):
-        pass
-        self.rgb = rgb
-        self.name = name
+        self._rgb = rgb
+        self._name = name
 
-    def _set_name(self, name):
+    @property
+    def name(self):
+        """new doc"""
+        return self._name
+
+    @name.setter
+    def name(self, name):
         if name:
             self._name = name
         else:
             raise ValueError(f"Invalid name {name!r}")
 
-    def _get_name(self):
-        return self._name
-
-    def _set_rgb(self, rgb):
-        self._rgb = rgb
-
-    def _get_rgb(self):
+    @property
+    def rgb(self):
         return self._rgb
 
-    def _del_name(self):
+    @rgb.setter
+    def rgb(self, rgb):
+        self._rgb = rgb
+
+    @name.deleter
+    def name(self):
         print("Deleting...")
         del self._name
-    name = property()
-    #name = property(_get_name, _set_name, _del_name, "new doc")
 
 
-c = Color(0x45548, "blou")
+c = Color(0x45548, "blue")
 c.name = "red"
 print(c.name)
-help(c)
-
+print(c.rgb)
+del c.name
