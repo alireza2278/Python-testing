@@ -1,7 +1,7 @@
 class Color:
     def __init__(self, rgb, name):
-        self._rgb = rgb
-        self._name = name
+        self.rgb = rgb
+        self.name = name
 
     @property
     def name(self):

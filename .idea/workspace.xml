@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf4db639-9cb9-4963-9b93-2a97ffa71ca4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my_class/__iter__ ,__next__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_class/classDecorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_class/descriptor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_class/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_class/color.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.color" />
         <item itemvalue="Python.return function" />
         <item itemvalue="Python.__slots__" />
         <item itemvalue="Python.class_str_repr" />
-        <item itemvalue="Python.color" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +257,9 @@
       <workItem from="1687761894280" duration="5556000" />
       <workItem from="1687767569065" duration="80000" />
       <workItem from="1687767687541" duration="212000" />
+      <workItem from="1687786462315" duration="120000" />
+      <workItem from="1687846325092" duration="4737000" />
+      <workItem from="1687869966280" duration="9948000" />
     </task>
     <servers />
   </component>
@@ -293,11 +294,11 @@
     <SUITE FILE_PATH="coverage/python_project$test.coverage" NAME="test Coverage Results" MODIFIED="1687607103204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnit_python$class_bank.coverage" NAME="class_bank Coverage Results" MODIFIED="1685604428743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pkg" />
     <SUITE FILE_PATH="coverage/learnit_python$Calculation_of_perimeter_and_area.coverage" NAME="Calculation of perimeter and area Coverage Results" MODIFIED="1687242149264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
-    <SUITE FILE_PATH="coverage/learnit_python$test.coverage" NAME="test Coverage Results" MODIFIED="1687767608453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnit_python$test.coverage" NAME="test Coverage Results" MODIFIED="1687880994946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project$class_Point___.coverage" NAME="class_Point (۱) Coverage Results" MODIFIED="1684959255028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnit_python$__slots__.coverage" NAME="__slots__ Coverage Results" MODIFIED="1687704498482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/python_project$class_str_repr.coverage" NAME="class_str_repr Coverage Results" MODIFIED="1687605857018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
-    <SUITE FILE_PATH="coverage/learnit_python$color.coverage" NAME="color Coverage Results" MODIFIED="1687503908758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
+    <SUITE FILE_PATH="coverage/learnit_python$color.coverage" NAME="color Coverage Results" MODIFIED="1687848491401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/python_project$__slots__.coverage" NAME="__slots__ Coverage Results" MODIFIED="1687607109291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
     <SUITE FILE_PATH="coverage/learnit_python$return_function.coverage" NAME="return function Coverage Results" MODIFIED="1687755566333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project$color.coverage" NAME="color Coverage Results" MODIFIED="1687512173812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_class" />
