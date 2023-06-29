@@ -20,6 +20,7 @@ class Cat(Animal):
     def make_sound(self):
         print("Meow...")
 
+
 class Cow(Animal):
     def __init__(self, name="", color=""):
         super().__init__(name, color)
