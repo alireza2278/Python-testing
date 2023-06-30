@@ -12,7 +12,7 @@ except Exception as Ex:
     print(Ex.__class__.__name__)
 
 print("end")
-#----------------------------------------
+# ----------------------------------------
 
 
 def div(q, r, z):
@@ -50,7 +50,7 @@ def func():
 
 
 func()
-#-------------------------------
+# -------------------------------
 
 
 #ایجاد استثنا دستی , (raise)کردن استثنا
@@ -63,4 +63,53 @@ def sol(x, y, z):
 
 
 sol(4, 2, 0)
+# -------------------------------
 
+
+class DigitError(Exception):
+
+    def __init__(self, s, message):
+        self.s = s
+        self.message = message
+        super().__init__(self.message)
+
+
+def func(s):
+    if not s.isdigit():
+        raise DigitError(s, "the string does not contain only numbers!")
+
+    numbers = []
+
+    for i in s:
+        numbers.append(int(i))
+    print(numbers)
+
+
+func("093s9")
+# -------------------------------
+from warnings import warn
+# در این حالت خطا را تعریف میکنیم اما منجر به توقف برنامه نمیشود و فقط پیشنهاد میدهد ک کار اشتباهی میکنید
+
+
+def func(x: int, y: int):
+    if not isinstance(x, int) and not isinstance(y, int):
+        warn("You must use the number", UserWarning)
+    print(x + y)
+
+
+func("4", "3")
+
+print("ok")
+# -------------------------------
+
+# assert جای ایف برای زمانی ک شک داریم تمام شرط ها دقیق اتفاق میافتد و اکثرا در دیباگ کاربرد دارد
+
+
+def func(x: int, y: int):
+    assert isinstance(x, int) and isinstance(y, int)
+    print(x + y)
+
+
+func("3", "3")
+
+print("ok")
